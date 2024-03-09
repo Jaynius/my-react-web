@@ -1,0 +1,19 @@
+
+.card{
+  max-width: 250px;
+  border: solid rgb(100, 98, 98);
+  border-radius: 10px ;
+  box-shadow: rgb(202, 122, 122);
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+
+}
+.button{
+  background-color: hsl(249, 72%, 45%);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px;
+}
