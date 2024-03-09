@@ -1,0 +1,19 @@
+.student{
+    margin: 50px;
+    border: solid rgba(11, 12, 12, 0.945);
+    background-color: black;
+    color: aqua;
+    box-shadow: 5px 5px rgb(4, 41, 46);
+    border-radius: 10px;
+    max-width: 250px;
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    display: flow-root;
+    text-align: center;
+    align-self: flex-start;
+  }
+  .student p{
+    margin: 0%;
+  
+  }

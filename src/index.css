@@ -17,3 +17,20 @@
   text-align: center;
   margin: 20px;
 }
+.loggedin{
+  background-color: rgba(9, 241, 133, 0.87);
+  color: white;
+  border-radius: 10px;
+  
+}
+.notloggedin{
+  background-color: rgb(136, 16, 16);
+  color: white;
+  border-radius: 10px;
+  
+}
+h2{
+  text-align: center;
+  margin: 2px;
+  max-width: 250px;
+}
