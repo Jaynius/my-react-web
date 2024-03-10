@@ -1,9 +1,17 @@
 import './App.css'
-import NewButton from './components/NewButton';
+import Foods from './components/Foods'
+// import Car from './components/Car'
+// import ColorPicker from './components/ColorPicker'
+// import Shopping from './components/Shopping'
+// import Counter from './components/Counter'
+// import UseStateExample from './components/UseStateExample'
+// import ProfilePicture from './components/ProfilePicture';
 export default function App() {
-  return(<NewButton/>);
-
-  
+  return(
+    <>
+    <Foods/>
+    </>
+  )
 }
 
 //   const fruits=[{id:1,name:"mangoes",calories:97},

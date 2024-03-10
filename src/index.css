@@ -34,3 +34,61 @@ h2{
   margin: 2px;
   max-width: 250px;
 }
+
+.score{
+  margin:10px;
+  text-align: center;
+  max-width: 400px;
+  background-color: rgba(8, 2, 2, 0.89);
+  color: rgba(32, 235, 235, 0.89);
+  align-content: center;
+  border-radius: 10px;
+  border-style: none;
+  padding: 2px;
+
+}
+.decrement{
+  background-color: rgba(172, 73, 73, 0.801);
+  color: white;
+  font-size: large;
+  padding: 3px;
+  border-radius: 10px;
+  border-style: none;
+  margin: 5px;
+}
+.increment{
+  background-color: rgba(70, 190, 33, 0.801);
+  color: white;
+  font-size: large;
+  padding: 3px;
+  border-radius: 10px;
+  border-style: none;
+  margin: 5px;
+
+}
+
+.reset{
+  background-color: rgba(33, 35, 36, 0.801);
+  color: white;
+  font-size: large;
+  padding: 3px;
+  border-radius: 10px;
+  border-style: none;
+  margin: 5px;
+}
+
+.content-display{
+  font-size: 10em;
+}
+.selected-display{
+  max-width: 250px;
+  height: 300px;
+}
+
+.color-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  max-height: 500px;
+}

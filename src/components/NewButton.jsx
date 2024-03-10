@@ -9,7 +9,7 @@
             console.log(`${name} youve clickes ${count} times`)
         }
         else{
-            console.log(`${name} stop clicking ${count} times`)
+            console.log(`${name} stop clicking many times`)
         }
 
     }
