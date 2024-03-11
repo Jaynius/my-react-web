@@ -92,3 +92,88 @@ h2{
   max-width: 300px;
   max-height: 500px;
 }
+.to-do-container{
+  background-color: rgb(153, 170, 196);
+  max-width: 50%;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 2px;
+  align-items: center;
+  
+  
+}
+
+h1{
+  color: rgba(24, 26, 25, 0.788);
+  text-align: center;
+}
+
+.tasks-container{
+  border-radius: 10px;
+  background-color: ghostwhite;
+  padding: 1cm;
+  align-content: center;
+}
+button{
+  font-size: 0.9em;
+  border: none;
+  border-radius: 5px;
+  padding-bottom: 5px,;
+  
+
+}
+
+.delete-btn{
+  background-color: rgb(219, 121, 121);
+  color: white;
+}
+.delete-btn:hover{
+  background-color: rgba(221, 2, 2, 0.664);
+}
+span{
+  font-size: 1.2em;
+  background-color:ghostwhite;
+
+}
+.add-btn{
+  background-color: rgba(86, 230, 86, 0.733);
+}
+.add-btn:hover{
+  background-color: rgba(8, 105, 8, 0.945);
+}
+ol{
+  padding:o;
+  list-style: none;
+}
+li{
+  padding: 15px;
+  margin-bottom: 3px;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+ 
+}
+.text{
+  flex: 1;
+  margin-right: 5px;
+}
+
+.up-btn, .down-btn{
+  padding: 10px,5px;
+  margin-left: 10px;
+  background-color: rgb(97, 97, 219);
+}
+.down-btn{
+  margin-right: 10px;
+}
+
+input[type="text"]{
+  font-size: 1.2rem;
+  color: rgb(78, 69, 69);
+}
+
+.counter-container{
+  max-width: 400px;
+}

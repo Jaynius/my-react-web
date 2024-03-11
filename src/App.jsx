@@ -1,18 +1,24 @@
 import './App.css'
-import Foods from './components/Foods'
+import WindowResize from './components/WindowResize';
+function App() {
+  return(
+    <>
+   < WindowResize/>
+    </>
+  );
+}
+export default App;
+// import CounterEffect from './components/Countereffect';
+// import Todo from './components/ToDo';
+// import CarShop from './components/Carshop';
+// import Foods from './components/Foods'
 // import Car from './components/Car'
 // import ColorPicker from './components/ColorPicker'
 // import Shopping from './components/Shopping'
 // import Counter from './components/Counter'
 // import UseStateExample from './components/UseStateExample'
 // import ProfilePicture from './components/ProfilePicture';
-export default function App() {
-  return(
-    <>
-    <Foods/>
-    </>
-  )
-}
+
 
 //   const fruits=[{id:1,name:"mangoes",calories:97},
 //   {id:2,name:"oranges",calories:37},
