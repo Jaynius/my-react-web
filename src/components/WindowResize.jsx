@@ -8,8 +8,12 @@ function WindowResize(){
     useEffect(()=>{
         addEventListener("resize",handleResize);
 
-        return(removeEventListener("resize",handleResize))
-    })
+        return(removeEventListener("resize",handleResize));
+    },[])
+
+    useEffect(()=>{
+        document.title=`size ${width}X${height}`;
+    },[width,height]);
     function handleResize(){
         setHeight(window.innerHeight);
         setWidth(window.innerWidth);
